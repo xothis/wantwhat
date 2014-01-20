@@ -11,347 +11,416 @@
     <link rel="stylesheet" href="../css/public.css"/>
 </head>
 <body>
-<header class="header">
-
-
-    <nav class="navbar navbar-default " role="navigation">
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <div class="container">
-                <div class="row">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Sign</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><span class="navbar-text">|</span></li>
-                        <li><button class="btn btn-default navbar-btn">My Info
-                            <i class="glyphicon glyphicon-shopping-cart"></i>
-                            <span class="label label-danger">2</span>
-                        </button></li>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
+<header class="header container">
+    <nav class="row ">
+        <ul class="nav-list left pull-left">
+            <li class="nav-list-item">
+                <a class="logo" href="#">logo</a>
+            </li>
+            <li class="nav-list-item hoverLine">
+                <a class="nav-link">所有商品</a>
+            </li>
+            <li class="nav-list-item hoverLine">
+                <a class="nav-link">最新揭晓</a>
+            </li>
+            <li class="nav-list-item hoverLine">
+                <a class="nav-link">晒单分享</a>
+            </li>
+        </ul>
+        <ul class="nav-list right pull-right">
+            <li class="nav-list-item">
+                <div class="message"></div>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-link">个人信息（ <span class="text-danger">2</span> ）</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-link"><i class="icon-shopping-cart"></i> （ <span class="text-danger">2</span> ）</a>
+            </li>
+        </ul>
     </nav>
-
 </header>
 
 <!-- Content -->
-<div class="container">
+<section class="rotate container">
     <div class="row">
+        <ul class="rotate-list">
+            <li class="rotate-list-item">
+                <h2 class="rotate-title"></h2>
 
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="../images/1.jpg" class="img-rounded" alt=""/>
-                    <div class="carousel-caption">
-                        <h3>蜂鸟</h3>
-                        <p>转啊转啊转啊</p>
-                    </div>
+                <p class="rotate-info"></p>
+                <img class="rotate-img" src=""/>
+            </li>
+            <li class="rotate-list-item">
+                <h2 class="rotate-title"></h2>
+
+                <p class="rotate-info"></p>
+                <img class="rotate-img" src=""/>
+            </li>
+            <li class="rotate-list-item">
+                <h2 class="rotate-title"></h2>
+
+                <p class="rotate-info"></p>
+                <img class="rotate-img" src=""/>
+            </li>
+        </ul>
+    </div>
+    <div class="rotate-buttons">
+        <div class="rotate-left icon-angle-left"></div>
+        <div class="rotate-right icon-angle-right"></div>
+    </div>
+</section>
+
+
+<div class="container">
+<section class="publish">
+    <header class="frame-header">
+        <div class="pull-left frame-header-title">最近揭晓</div>
+        <a class="pull-right frame-header-link" href="#">more</a>
+    </header>
+    <div class="publish-first">
+        <div class="publish-first-info hoverLine">
+            <img class="first-img" src=""/>
+
+            <div class="first-basic">
+                <div class="first-money">
+                    ￥ <span class="first-money-numbe">2999</span>
                 </div>
-                <div class="item">
-                    <img src="../images/2.jpg" class="img-rounded" alt=""/>
-                    <div class="carousel-caption">
-                        <h3>xxxxx</h3>
-                        <p>oooo</p>
-                    </div>
+                <div class="first-name">iPhone 5s</div>
+                <div class="first-getter">
+                    <label class="first-label first-getter-label">获得者：</label>
+                    <a class="first-value blue" href="#">奇怪的人</a>
                 </div>
-                <div class="item ">
-                    <img src="../images/3.jpg" class="img-rounded" alt=""/>
-                    <div class="carousel-caption">
-                        <h3>yyyyyy</h3>
-                        <p>zzz</p>
-                    </div>
+                <div class="first-buy">
+                    <label class="first-label first-buy-label">购买数：</label>
+                    <b class="first-value"><span class="blue">3</span> 人份</b>
+                </div>
+                <div class="first-time">
+                    <label class="first-label first-time-label">揭晓时间：</label>
+                    <b class="first-value">2013-12-14</b>
                 </div>
             </div>
-            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
+            <div class="first-count">
+
+            </div>
+        </div>
+        <article class="publish-first-share">
+            <div class="publish-arrows"></div>
+            <header class="share-header clearfix">
+                <img class="share-head pull-left" src=""/>
+
+                <div class="share-basic">
+                    <div class="share-basic-author"><b>奇怪的人</b>的晒单</div>
+                    <div class="share-basic-title">我是一个很厉害的晒单标题！！！！！</div>
+                </div>
+                <div class="share-content">
+                    我们是晒单的内容中文，而且是不完整的，你一般都看不完......
+                </div>
+            </header>
+        </article>
+    </div>
+    <section class="row publish-normal-collection">
+        <div class="col-md-3 publish-normal">
+            <img class="normal-img pull-left" src="" alt=""/>
+
+            <div class="normal-basic pull-right">
+                <div class="normal-money">￥ <span class="normal-money-number">2999</span></div>
+                <div class="normal-name">iPad Air</div>
+                <div class="normal-getter">
+                    获得者：<b class="blue">奇怪的人</b>
+                </div>
+                <div class="normal-buy">
+                    购买数：<b class="blue">3</b>人份
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 publish-normal">
+            <img class="normal-img pull-left" src="" alt=""/>
+
+            <div class="normal-basic pull-right">
+                <div class="normal-money">￥ <span class="normal-money-number">2999</span></div>
+                <div class="normal-name">iPad Air</div>
+                <div class="normal-getter">
+                    获得者：<b class="blue">奇怪的人</b>
+                </div>
+                <div class="normal-buy">
+                    购买数：<b class="blue">3</b>人份
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 publish-normal">
+            <img class="normal-img pull-left" src="" alt=""/>
+
+            <div class="normal-basic pull-right">
+                <div class="normal-money">￥ <span class="normal-money-number">2999</span></div>
+                <div class="normal-name">iPad Air</div>
+                <div class="normal-getter">
+                    获得者：<b class="blue">奇怪的人</b>
+                </div>
+                <div class="normal-buy">
+                    购买数：<b class="blue">3</b>人份
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 publish-normal">
+            <img class="normal-img pull-left" src="" alt=""/>
+
+            <div class="normal-basic pull-right">
+                <div class="normal-money">￥ <span class="normal-money-number">2999</span></div>
+                <div class="normal-name">iPad Air</div>
+                <div class="normal-getter">
+                    获得者：<b class="blue">奇怪的人</b>
+                </div>
+                <div class="normal-buy">
+                    购买数：<b class="blue">3</b>人份
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="hot col-md-12">
+    <header class="clearfix">
+        <span class="text-primary">Hot</span>
+        <a class="pull-right" href="#">more&gt;&gt;</a>
+    </header>
+    <div class="col-md-4 hot-item text-center">
+        <img src="../images/phone.png" alt=""/>
+
+        <div class="hot-item-name">Music Port</div>
+        <div class="hot-item-price">Price：￥299.00</div>
+        <div class="hot-item-progress">
+            <div class="progress">
+                <div class="progress-bar progress-bar-info"
+                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 20%">
+                    20/100
+                    <span class="sr-only">20% Complete</span>
+                </div>
+            </div>
+            <div class="hot-item-progress-surplus">
+                Chances：<span class="text-primary">80</span>
+            </div>
+        </div>
+        <a class="hot-item-button btn btn-default btn-lg" href="#">
+            Get ONE!
+        </a>
+    </div>
+    <div class="col-md-4 hot-item text-center">
+        <img src="../images/phone.png" alt=""/>
+
+        <div class="hot-item-name">Music Port</div>
+        <div class="hot-item-price">Price：￥299.00</div>
+        <div class="hot-item-progress">
+            <div class="progress">
+                <div class="progress-bar progress-bar-info"
+                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 20%">
+                    20/100
+                    <span class="sr-only">20% Complete</span>
+                </div>
+            </div>
+            <div class="hot-item-progress-surplus">
+                Chances：<span class="text-primary">80</span>
+            </div>
+        </div>
+        <a class="hot-item-button btn btn-default btn-lg" href="#">
+            Get ONE!
+        </a>
+    </div>
+    <div class="col-md-4 hot-item text-center">
+        <img src="../images/phone.png" alt=""/>
+
+        <div class="hot-item-name">Music Port</div>
+        <div class="hot-item-price">Price：￥299.00</div>
+        <div class="hot-item-progress">
+            <div class="progress">
+                <div class="progress-bar progress-bar-info"
+                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 20%">
+                    20/100
+                    <span class="sr-only">20% Complete</span>
+                </div>
+            </div>
+            <div class="hot-item-progress-surplus">
+                Chances：<span class="text-primary">80</span>
+            </div>
+        </div>
+        <a class="hot-item-button btn btn-default btn-lg" href="#">
+            Get ONE!
+        </a>
+    </div>
+    <div class="col-md-4 hot-item text-center">
+        <img src="../images/phone.png" alt=""/>
+
+        <div class="hot-item-name">Music Port</div>
+        <div class="hot-item-price">Price：￥299.00</div>
+        <div class="hot-item-progress">
+            <div class="progress">
+                <div class="progress-bar progress-bar-info"
+                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 20%">
+                    20/100
+                    <span class="sr-only">20% Complete</span>
+                </div>
+            </div>
+            <div class="hot-item-progress-surplus">
+                Chances：<span class="text-primary">80</span>
+            </div>
+        </div>
+        <a class="hot-item-button btn btn-default btn-lg" href="#">
+            Get ONE!
+        </a>
+    </div>
+    <div class="col-md-4 hot-item text-center">
+        <img src="../images/phone.png" alt=""/>
+
+        <div class="hot-item-name">Music Port</div>
+        <div class="hot-item-price">Price：￥299.00</div>
+        <div class="hot-item-progress">
+            <div class="progress">
+                <div class="progress-bar progress-bar-info"
+                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 20%">
+                    20/100
+                    <span class="sr-only">20% Complete</span>
+                </div>
+            </div>
+            <div class="hot-item-progress-surplus">
+                Chances：<span class="text-primary">80</span>
+            </div>
+        </div>
+        <a class="hot-item-button btn btn-default btn-lg" href="#">
+            Get ONE!
+        </a>
+    </div>
+    <div class="col-md-4 hot-item text-center">
+        <img src="../images/phone.png" alt=""/>
+
+        <div class="hot-item-name">Music Port</div>
+        <div class="hot-item-price">Price：￥299.00</div>
+        <div class="hot-item-progress">
+            <div class="progress">
+                <div class="progress-bar progress-bar-info"
+                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 20%">
+                    20/100
+                    <span class="sr-only">20% Complete</span>
+                </div>
+            </div>
+            <div class="hot-item-progress-surplus">
+                Chances：<span class="text-primary">80</span>
+            </div>
+        </div>
+        <a class="hot-item-button btn btn-default btn-lg" href="#">
+            Get ONE!
+        </a>
+    </div>
+</section>
+
+<section class="share col-md-12">
+    <header class="clearfix">
+        <span class="text-primary">Share</span>
+        <a class="pull-right" href="#">more&gt;&gt;</a>
+    </header>
+    <section class="share-detail col-md-12">
+        <div class="share-detail-item col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Xiao mi
+                    <span class="pull-right">Getter: <b class="text-info">Tom</b></span>
+                </div>
+                <div class="panel-body">
+                    <img src="../images/phone.png" class="share-detail-img"/>
+
+                    <p>
+                        WaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWa,I GET IT !!!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="share-detail-item col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Xiao mi
+                    <span class="pull-right">Getter: <b class="text-info">Tom</b></span>
+                </div>
+                <div class="panel-body">
+                    <img src="../images/phone.png" class="share-detail-img"/>
+
+                    <p>
+                        WaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWa,I GET IT !!!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="share-list col-md-12">
+        <div class="col-md-2 share-list-item">
+            <img class="share-list-img" src="../images/phone.png" alt=""/>
+            <dl>
+                <dt>Getter: <b class="text-info">Tom</b></dt>
+                <dd>I GET IT !!!!!!!</dd>
+            </dl>
+            <time>2013-12-25</time>
+        </div>
+        <div class="col-md-2 share-list-item">
+            <img class="share-list-img" src="../images/phone.png" alt=""/>
+            <dl>
+                <dt>Getter: <b class="text-info">Tom</b></dt>
+                <dd>I GET IT !!!!!!!</dd>
+            </dl>
+            <time>2013-12-25</time>
+        </div>
+        <div class="col-md-2 share-list-item">
+            <img class="share-list-img" src="../images/phone.png" alt=""/>
+            <dl>
+                <dt>Getter: <b class="text-info">Tom</b></dt>
+                <dd>I GET IT !!!!!!!</dd>
+            </dl>
+            <time>2013-12-25</time>
+        </div>
+        <div class="col-md-2 share-list-item">
+            <img class="share-list-img" src="../images/phone.png" alt=""/>
+            <dl>
+                <dt>Getter: <b class="text-info">Tom</b></dt>
+                <dd>I GET IT !!!!!!!</dd>
+            </dl>
+            <time>2013-12-25</time>
+        </div>
+        <div class="col-md-2 share-list-item">
+            <img class="share-list-img" src="../images/phone.png" alt=""/>
+            <dl>
+                <dt>Getter: <b class="text-info">Tom</b></dt>
+                <dd>I GET IT !!!!!!!</dd>
+            </dl>
+            <time>2013-12-25</time>
+        </div>
+        <div class="col-md-2 share-list-item">
+            <img class="share-list-img" src="../images/phone.png" alt=""/>
+            <dl>
+                <dt>Getter: <b class="text-info">Tom</b></dt>
+                <dd>I GET IT !!!!!!!</dd>
+            </dl>
+            <time>2013-12-25</time>
         </div>
 
-        <section class="publish col-md-12">
-            <header class="clearfix">
-                <span class="text-primary">New Publish</span>
-                <a class="pull-right" href="#">more&gt;&gt;</a>
-            </header>
-            <div class="col-md-2 publish-item">
-                <img src="../images/phone.png" alt=""/>
-                <div class="publish-item-name">Xiao mi</div>
-                <div class="publish-item-getter">Congratulation <span>Tom</span></div>
-            </div>
-            <div class="col-md-2 publish-item">
-                <img src="../images/phone.png" alt=""/>
-                <div class="publish-item-name">Xiao mi</div>
-                <div class="publish-item-getter">Congratulation <span>Tom</span></div>
-            </div>
-            <div class="col-md-2 publish-item">
-                <img src="../images/phone.png" alt=""/>
-                <div class="publish-item-name">Xiao mi</div>
-                <div class="publish-item-getter">Congratulation <span>Tom</span></div>
-            </div>
-            <div class="col-md-2 publish-item">
-                <img src="../images/phone.png" alt=""/>
-                <div class="publish-item-name">Xiao mi</div>
-                <div class="publish-item-getter">Congratulation <span>Tom</span></div>
-            </div>
-            <div class="col-md-2 publish-item">
-                <img src="../images/phone.png" alt=""/>
-                <div class="publish-item-name">Xiao mi</div>
-                <div class="publish-item-getter">Congratulation <span>Tom</span></div>
-            </div>
-            <div class="col-md-2 publish-item">
-                <img src="../images/phone.png" alt=""/>
-                <div class="publish-item-name">Xiao mi</div>
-                <div class="publish-item-getter">Congratulation <span>Tom</span></div>
-            </div>
-        </section>
+    </section>
 
-        <section class="hot col-md-12">
-            <header class="clearfix">
-                <span class="text-primary">Hot</span>
-                <a class="pull-right" href="#">more&gt;&gt;</a>
-            </header>
-            <div class="col-md-4 hot-item text-center">
-                <img src="../images/phone.png" alt=""/>
-                <div class="hot-item-name">Music Port</div>
-                <div class="hot-item-price">Price：￥299.00</div>
-                <div class="hot-item-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info"
-                             role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 20%">
-                            20/100
-                            <span class="sr-only">20% Complete</span>
-                        </div>
-                    </div>
-                    <div class="hot-item-progress-surplus">
-                        Chances：<span class="text-primary">80</span>
-                    </div>
-                </div>
-                <a class="hot-item-button btn btn-default btn-lg" href="#">
-                       Get ONE!
-                </a>
-            </div>
-            <div class="col-md-4 hot-item text-center">
-                <img src="../images/phone.png" alt=""/>
-                <div class="hot-item-name">Music Port</div>
-                <div class="hot-item-price">Price：￥299.00</div>
-                <div class="hot-item-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info"
-                             role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 20%">
-                            20/100
-                            <span class="sr-only">20% Complete</span>
-                        </div>
-                    </div>
-                    <div class="hot-item-progress-surplus">
-                        Chances：<span class="text-primary">80</span>
-                    </div>
-                </div>
-                <a class="hot-item-button btn btn-default btn-lg" href="#">
-                    Get ONE!
-                </a>
-            </div>
-            <div class="col-md-4 hot-item text-center">
-                <img src="../images/phone.png" alt=""/>
-                <div class="hot-item-name">Music Port</div>
-                <div class="hot-item-price">Price：￥299.00</div>
-                <div class="hot-item-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info"
-                             role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 20%">
-                            20/100
-                            <span class="sr-only">20% Complete</span>
-                        </div>
-                    </div>
-                    <div class="hot-item-progress-surplus">
-                        Chances：<span class="text-primary">80</span>
-                    </div>
-                </div>
-                <a class="hot-item-button btn btn-default btn-lg" href="#">
-                    Get ONE!
-                </a>
-            </div>
-            <div class="col-md-4 hot-item text-center">
-                <img src="../images/phone.png" alt=""/>
-                <div class="hot-item-name">Music Port</div>
-                <div class="hot-item-price">Price：￥299.00</div>
-                <div class="hot-item-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info"
-                             role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 20%">
-                            20/100
-                            <span class="sr-only">20% Complete</span>
-                        </div>
-                    </div>
-                    <div class="hot-item-progress-surplus">
-                        Chances：<span class="text-primary">80</span>
-                    </div>
-                </div>
-                <a class="hot-item-button btn btn-default btn-lg" href="#">
-                    Get ONE!
-                </a>
-            </div>
-            <div class="col-md-4 hot-item text-center">
-                <img src="../images/phone.png" alt=""/>
-                <div class="hot-item-name">Music Port</div>
-                <div class="hot-item-price">Price：￥299.00</div>
-                <div class="hot-item-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info"
-                             role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 20%">
-                            20/100
-                            <span class="sr-only">20% Complete</span>
-                        </div>
-                    </div>
-                    <div class="hot-item-progress-surplus">
-                        Chances：<span class="text-primary">80</span>
-                    </div>
-                </div>
-                <a class="hot-item-button btn btn-default btn-lg" href="#">
-                    Get ONE!
-                </a>
-            </div>
-            <div class="col-md-4 hot-item text-center">
-                <img src="../images/phone.png" alt=""/>
-                <div class="hot-item-name">Music Port</div>
-                <div class="hot-item-price">Price：￥299.00</div>
-                <div class="hot-item-progress">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info"
-                             role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 20%">
-                            20/100
-                            <span class="sr-only">20% Complete</span>
-                        </div>
-                    </div>
-                    <div class="hot-item-progress-surplus">
-                        Chances：<span class="text-primary">80</span>
-                    </div>
-                </div>
-                <a class="hot-item-button btn btn-default btn-lg" href="#">
-                    Get ONE!
-                </a>
-            </div>
-        </section>
-
-        <section class="share col-md-12">
-            <header class="clearfix">
-                <span class="text-primary">Share</span>
-                <a class="pull-right" href="#">more&gt;&gt;</a>
-            </header>
-            <section class="share-detail col-md-12">
-                <div class="share-detail-item col-md-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">Xiao mi
-                            <span class="pull-right">Getter: <b class="text-info">Tom</b></span>
-                        </div>
-                        <div class="panel-body">
-                            <img src="../images/phone.png" class="share-detail-img" />
-                            <p>
-                                WaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWa,I GET IT !!!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="share-detail-item col-md-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">Xiao mi
-                            <span class="pull-right">Getter: <b class="text-info">Tom</b></span>
-                        </div>
-                        <div class="panel-body">
-                            <img src="../images/phone.png" class="share-detail-img" />
-                            <p>
-                                WaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWaWa,I GET IT !!!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="share-list col-md-12">
-                <div class="col-md-2 share-list-item">
-                    <img class="share-list-img" src="../images/phone.png" alt=""/>
-                    <dl>
-                        <dt>Getter: <b class="text-info">Tom</b></dt>
-                        <dd>I GET IT !!!!!!!</dd>
-                    </dl>
-                    <time>2013-12-25</time>
-                </div>
-                <div class="col-md-2 share-list-item">
-                    <img class="share-list-img" src="../images/phone.png" alt=""/>
-                    <dl>
-                        <dt>Getter: <b class="text-info">Tom</b></dt>
-                        <dd>I GET IT !!!!!!!</dd>
-                    </dl>
-                    <time>2013-12-25</time>
-                </div>
-                <div class="col-md-2 share-list-item">
-                    <img class="share-list-img" src="../images/phone.png" alt=""/>
-                    <dl>
-                        <dt>Getter: <b class="text-info">Tom</b></dt>
-                        <dd>I GET IT !!!!!!!</dd>
-                    </dl>
-                    <time>2013-12-25</time>
-                </div>
-                <div class="col-md-2 share-list-item">
-                    <img class="share-list-img" src="../images/phone.png" alt=""/>
-                    <dl>
-                        <dt>Getter: <b class="text-info">Tom</b></dt>
-                        <dd>I GET IT !!!!!!!</dd>
-                    </dl>
-                    <time>2013-12-25</time>
-                </div>
-                <div class="col-md-2 share-list-item">
-                    <img class="share-list-img" src="../images/phone.png" alt=""/>
-                    <dl>
-                        <dt>Getter: <b class="text-info">Tom</b></dt>
-                        <dd>I GET IT !!!!!!!</dd>
-                    </dl>
-                    <time>2013-12-25</time>
-                </div>
-                <div class="col-md-2 share-list-item">
-                    <img class="share-list-img" src="../images/phone.png" alt=""/>
-                    <dl>
-                        <dt>Getter: <b class="text-info">Tom</b></dt>
-                        <dd>I GET IT !!!!!!!</dd>
-                    </dl>
-                    <time>2013-12-25</time>
-                </div>
-
-            </section>
-
-        </section>
-    </div>
+</section>
+</div>
 </div>
 
 <!-- Content -->
 
 <footer class="footer container">
-    <div class="row">
+    <nav class="row">
         <hr>
-        <div class="col-md-12">
-            <a class="btn btn-link col-md-4">About/Contact Us</a>
-            <a class="btn btn-link col-md-4">How To Play</a>
-            <a class="btn btn-link col-md-4">Delivery <i class="icon-truck"></i></a>
-        </div>
-        <div class="col-md-12 text-center">
-            copyright
-        </div>
-    </div>
-
+        <ul class="footer-nav-list">
+            <li class="footer-nav-item hoverLine-top"><a class="footer-link" href="#">联络我们</a></li>
+            <li class="footer-nav-item hoverLine-top"><a class="footer-link" href="#">如何参与</a></li>
+            <li class="footer-nav-item hoverLine-top"><a class="footer-link" href="#">关于物流</a></li>
+        </ul>
+    </nav>
 </footer>
 
 
