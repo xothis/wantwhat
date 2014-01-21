@@ -60,7 +60,7 @@
 
 .frame-header{
     color: #3594de;
-    padding-bottom: 5px;
+    padding: 0 8px 2px 8px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -82,6 +82,12 @@
     border-bottom-color: #3594de;
 }
 
+.inBl{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
 /* text-color */
 
 .text-yellow{
@@ -90,4 +96,12 @@
 
 .text-blue{
     color: #3594de;
+}
+
+.text-gray{
+    color: #999;
+}
+
+.text-white{
+    color: #fff;
 }

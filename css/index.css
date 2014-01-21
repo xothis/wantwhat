@@ -1,46 +1,180 @@
 /*  rotate  */
 
-.rotate{
+.rotate {
     background: #fcea75;
     height: 208px;
     position: relative;
     margin: 20px 0 25px 0;
 }
 
-.rotate-list{
+.rotate-list {
     width: 95%;
     height: 100%;
     margin: 0 auto;
 }
 
-.rotate-list-item{
+.rotate-list-item {
     position: relative;
 }
 
-.rotate-title{
+.rotate-title {
     position: absolute;
 }
 
-.rotate-info{
+.rotate-info {
     position: absolute;
 }
 
-.rotate-img{
+.rotate-img {
 
 }
 
-.rotate-buttons{
+.rotate-buttons {
     position: relative;
     font-size: 52px;
     top: 5px;
 }
 
-.rotate-left{
+.rotate-left {
     position: absolute;
     left: 0;
 }
 
-.rotate-right{
+.rotate-right {
     position: absolute;
     right: 0;
+}
+
+/*  first   */
+
+.first-img {
+    height: 140px;
+    /*width: 150px;*/
+}
+
+.first-basic {
+    color: #333;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.first-money {
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.first-money-number {
+    font-size: 32px;
+}
+
+.first-name {
+    font-size: 18px;
+}
+
+.first-getter, .first-buy, .first-time {
+    margin: 4px 0;
+}
+
+/*   publish   */
+
+.publish {
+}
+
+.publish-first {
+    width: 96%;
+    margin: 10px auto ;
+}
+
+.publish-first-info {
+    width: 52%;
+    padding-bottom: 5px;
+}
+
+.publish-first-share {
+    position: relative;
+    background: #3497da;
+    color: #fff;
+    width: 47%;
+    padding: 8px 15px;
+    height: 130px;
+}
+
+.publish-share-arrows{
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 13px solid transparent;
+    border-right-color: #3497da;
+    position: absolute;
+    top: 50%;
+    left: -26px;
+    margin-top: -12px;
+}
+
+.share-header{
+}
+
+.share-head{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+
+.share-basic{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.share-basic-author{
+
+}
+
+.share-content{
+    margin-top: 15px;
+}
+
+.publish-normal-collection{
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.publish-normal{
+    border-left: 1px solid #eee;
+    padding-left: 23px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.publish-normal:first-child{
+    border-left: none;
+}
+
+.publish-normal .hoverLine{
+    padding-bottom: 3px;
+}
+
+.normal-img{
+    width: 90px;
+    height: 95px;
+}
+
+.normal-basic{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.normal-money{
+    font-size: 14px;
+}
+
+.normal-money-number{
+    font-size: 18px;
+}
+
+.normal-name{
+    font-size: 14px;
+}
+
+.normal-name , .normal-getter , .normal-buy{
+    margin-top: 3px;
 }
