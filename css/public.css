@@ -1,0 +1,93 @@
+/* header */
+
+.header{
+    margin: 10px auto;
+}
+
+.nav-list{
+    position: relative;
+    top: 20px;
+}
+
+.nav-list-item{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    margin: 0 5px;
+    padding: 0 8px 8px 8px;
+    vertical-align: top;
+}
+
+.nav-link{
+    color: #333;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+.message{
+    position: relative;
+    background: #3597da;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    top: -8px;
+    left: 18px;
+}
+
+.message-arrows{
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 8px solid transparent;
+    border-left-color: #3597da;
+    position: absolute;
+    right: -15px;
+}
+
+.logo{
+    width: 150px;
+    height: 60px;
+    border: 1px #ddd dashed;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+/*   frame    */
+
+.frame-header{
+    color: #3594de;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.frame-header-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*   status   */
+
+.hoverLine{
+    border-bottom: 5px solid transparent;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.hoverLine:hover{
+    border-bottom-color: #3594de;
+}
+
+/* text-color */
+
+.text-yellow{
+    color: #f0c30f;
+}
+
+.text-blue{
+    color: #3594de;
+}

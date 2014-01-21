@@ -1,0 +1,46 @@
+/*  rotate  */
+
+.rotate{
+    background: #fcea75;
+    height: 208px;
+    position: relative;
+    margin: 20px 0 25px 0;
+}
+
+.rotate-list{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.rotate-list-item{
+    position: relative;
+}
+
+.rotate-title{
+    position: absolute;
+}
+
+.rotate-info{
+    position: absolute;
+}
+
+.rotate-img{
+
+}
+
+.rotate-buttons{
+    position: relative;
+    font-size: 52px;
+    top: 5px;
+}
+
+.rotate-left{
+    position: absolute;
+    left: 0;
+}
+
+.rotate-right{
+    position: absolute;
+    right: 0;
+}
