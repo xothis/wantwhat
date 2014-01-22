@@ -75,14 +75,49 @@
     margin: 4px 0;
 }
 
+.first-progress{
+}
+
+.first-progress .progress{
+    height: 30px;
+    border-radius: 0;
+    border: 2px solid #e3e3e3;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    background: #f4f4f4;
+    width: 330px;
+    margin-left: -2px;
+}
+
+.first-progress .progress-bar{
+    background: #3597da;
+}
+
+.first-changes{
+    line-height: 0;
+}
+
+.first-changes-number{
+    font-size: 32px;
+    vertical-align: top;
+    padding: 0 5px;
+}
+
+
+
 /*   publish   */
 
 .publish {
 }
 
+.publish-content{
+    width: 98%;
+    margin: 10px auto;
+}
+
 .publish-first {
-    width: 96%;
-    margin: 10px auto ;
+
 }
 
 .publish-first-info {
@@ -134,12 +169,11 @@
 }
 
 .publish-normal-collection{
-    padding-top: 15px;
-    padding-bottom: 40px;
+    padding: 25px 0;
 }
 
 .publish-normal{
-    border-left: 1px solid #eee;
+    border-left: 1px solid #ddd;
     padding-left: 23px;
     padding-bottom: 3px;
     cursor: pointer;
@@ -177,4 +211,50 @@
 
 .normal-name , .normal-getter , .normal-buy{
     margin-top: 3px;
+}
+
+/* hot */
+
+.hot-content{
+    width: 98%;
+    margin: 10px auto;
+}
+
+.hot-first{
+
+}
+
+.hot-first-info{
+    width: 63%;
+    padding-bottom: 5px;
+}
+
+.hot-normal-collection{
+    padding: 25px 0;
+}
+
+.hot-first-just{
+    font-size: 12px;
+    width: 32%;
+}
+
+.just-list{}
+
+.just-list-item{
+    padding: 6px 10px;
+}
+
+.just-head{
+    height: 25px;
+    width: 25px;
+}
+
+.just-name{
+    padding: 0 5px;
+}
+
+.just-more{
+    font-size: 14px;
+    text-align: center;
+    display: block;
 }

@@ -72,6 +72,10 @@
 
 /*   status   */
 
+.hoverLine-active{
+    border-bottom: 5px solid #3594de;
+}
+
 .hoverLine{
     border-bottom: 5px solid transparent;
     -webkit-transition: all .2s;
