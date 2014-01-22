@@ -1,15 +1,15 @@
 /* header */
 
-.header{
+.header {
     margin: 10px auto;
 }
 
-.nav-list{
+.nav-list {
     position: relative;
     top: 20px;
 }
 
-.nav-list-item{
+.nav-list-item {
     display: inline-block;
     *zoom: 1;
     *display: inline;
@@ -18,16 +18,16 @@
     vertical-align: top;
 }
 
-.nav-link{
+.nav-link {
     color: #333;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     text-decoration: none;
     color: #333;
 }
 
-.message{
+.message {
     position: relative;
     background: #3597da;
     color: #fff;
@@ -37,7 +37,7 @@
     left: 18px;
 }
 
-.message-arrows{
+.message-arrows {
     width: 0;
     height: 0;
     background: transparent;
@@ -47,7 +47,7 @@
     right: -15px;
 }
 
-.logo{
+.logo {
     width: 150px;
     height: 60px;
     border: 1px #ddd dashed;
@@ -58,35 +58,44 @@
 
 /*   frame    */
 
-.frame-header{
+.frame-header {
     color: #3594de;
     padding: 0 8px 2px 8px;
     border-bottom: 1px solid #ddd;
 }
 
-.frame-header-title{
+.frame-header-title {
     font-size: 18px;
     font-weight: bold;
 }
 
-
 /*   status   */
 
-.hoverLine-active{
+.hoverLine-active {
     border-bottom: 5px solid #3594de;
 }
 
-.hoverLine{
+.hoverLine {
     border-bottom: 5px solid transparent;
     -webkit-transition: all .2s;
     transition: all .2s;
 }
 
-.hoverLine:hover{
+.hoverLine:hover {
     border-bottom-color: #3594de;
 }
 
-.inBl{
+.hoverLine-top {
+    border-top: 5px solid transparent;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.hoverLine-top:hover {
+    border-top-color: #3594de;
+}
+
+.inBl {
     display: inline-block;
     *zoom: 1;
     *display: inline;
@@ -94,18 +103,43 @@
 
 /* text-color */
 
-.text-yellow{
+.text-yellow {
     color: #f0c30f;
 }
 
-.text-blue{
+.text-blue {
     color: #3594de;
 }
 
-.text-gray{
+.text-gray {
     color: #999;
 }
 
-.text-white{
+.text-white {
     color: #fff;
+}
+
+/*  footer  */
+.footer {
+}
+
+.footer-line {
+    color: #333;
+    margin-top: 35px;
+    border-color: #ddd;
+}
+
+.footer-nav-item {
+    text-align: center;
+}
+
+.footer-link{
+    color: #333;
+    display: block;
+    width: 100%;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #333;
 }
