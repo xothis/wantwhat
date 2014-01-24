@@ -4,6 +4,11 @@
     margin: 10px auto;
 }
 
+.header-line{
+    border-color: #ddd;
+}
+
+
 .nav-list {
     position: relative;
     top: 20px;
@@ -124,7 +129,6 @@
 }
 
 .footer-line {
-    color: #333;
     margin-top: 35px;
     border-color: #ddd;
 }

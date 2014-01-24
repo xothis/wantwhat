@@ -1,0 +1,133 @@
+/*     goodNav     */
+.goodNav{
+    border: 2px solid #ececec;
+    border-top-width: 3px;
+    /*padding: 0 5px;*/
+    width: 200px;
+}
+.goodNav-list{
+    margin: 0;
+    padding: 0;
+}
+.goodNav-list-item{
+    padding: 3px 0;
+    border-top: 1px solid #eee;
+}
+.goodNav-list-item:first-child{
+    border-top: 0;
+}
+.goodNav-link{
+    padding: 8px 0;
+    text-indent: 18px;
+    color: #333;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+.goodNav-link:hover{
+    text-decoration: none;
+    background: #3597da;
+    color: #fff;
+}
+
+.goodNav-list-item.active .goodNav-link{
+    color: #3597da;
+    font-weight: bold;
+}
+
+.goodNav-list-item.active .goodNav-link:hover{
+    color: #3597da;
+    background: #fff;
+}
+
+.icon-angle-right{
+    font-size: 24px;
+    color: #3597da;
+    position: relative;
+    top: -3px;
+    right: 5px;
+}
+
+/*    goodCollection   */
+.goodCollection{
+    width: 75%;
+}
+
+.good-list{
+
+}
+
+.good-list-item{
+    padding-bottom: 15px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.good-list-item:first-child{
+    margin-top: 0;
+}
+
+.good-list-item:hover{
+    border-bottom-width: 5px;
+}
+
+.good-img{
+    width: 160px;
+    height: 140px;
+}
+
+.good-basic{
+    font-size: 12px;
+    padding-left: 5px;
+    position: relative;
+}
+
+.good-money{
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+}
+
+.good-money-number{
+    font-size: 32px;
+}
+
+.good-name{
+    font-size: 18px;
+}
+
+.good-progress{
+
+}
+
+.good-progress .progress{
+    height: 30px;
+    border-radius: 0;
+    border: 2px solid #e3e3e3;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    background: #f4f4f4;
+    width: 330px;
+    margin-left: -2px;
+    margin-bottom: 0;
+}
+
+.good-progress .progress-bar{
+    background: #3597da;
+}
+
+.good-changes{
+    position: absolute;
+    bottom: -43px;
+}
+
+.good-changes-number{
+    font-size: 32px;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+

@@ -55,6 +55,7 @@
     color: #333;
     font-size: 12px;
     margin-left: 15px;
+    position: relative;
 }
 
 .first-money {
@@ -87,6 +88,7 @@
     background: #f4f4f4;
     width: 330px;
     margin-left: -2px;
+    margin-bottom: 0;
 }
 
 .first-progress .progress-bar{
@@ -94,12 +96,13 @@
 }
 
 .first-changes{
-    line-height: 0;
+    position: absolute;
+    bottom: -43px;
 }
 
 .first-changes-number{
     font-size: 32px;
-    vertical-align: top;
+    vertical-align: middle;
     padding: 0 5px;
 }
 
