@@ -9,191 +9,348 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/publish.css"/>
 </head>
 <body>
-<header class="header">
-    <nav class="navbar navbar-default " role="navigation">
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <div class="container">
-                <div class="row">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Sign</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><span class="navbar-text">|</span></li>
-                        <li>
-                            <button class="btn btn-default navbar-btn">My Info
-                                <i class="glyphicon glyphicon-shopping-cart"></i>
-                                <span class="label label-danger">2</span>
-                            </button>
-                        </li>
-                    </ul>
-
+<header class="header container">
+    <nav class="row">
+        <a class="logo col-md-2" href="#">logo</a>
+        <ul class="nav-list list-unstyled left col-md-5">
+            <li class="nav-list-item hoverLine">
+                <a class="nav-link" href="#">所有商品</a>
+            </li>
+            <li class="nav-list-item hoverLine">
+                <a class="nav-link" href="#">最新揭晓</a>
+            </li>
+            <li class="nav-list-item hoverLine">
+                <a class="nav-link" href="#">晒单分享</a>
+            </li>
+        </ul>
+        <ul class="nav-list list-unstyled right pull-right">
+            <li class="nav-list-item">
+                <div class="message">
+                    <div class="message-arrows"></div>
+                    <div class="message-content">我靠，我去你<span class="text-yellow">妈的</span>通知</div>
                 </div>
-            </div>
-        </div>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-link" href="#">个人信息（ <span class="text-danger">2</span> ）</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-link" href="#"><i class="icon-shopping-cart"></i> （ <span class="text-danger">2</span>
+                    ）</a>
+            </li>
+        </ul>
     </nav>
-
 </header>
+<hr class="header-line">
 
 <!-- Content -->
 <div class="container">
-    <div class="row">
-        <section class="col-md-8 publish">
-            <div class="publish-header"><b>The new Publish !</b>
-                We have gift <span class="text-info">2333</span> gifts !
+    <div class="row publish">
+        <section class="publish-first row">
+            <div class="first-pay col-md-3">
+                <span class="first-pay-number">3</span>元钱
             </div>
-            <div class="publish-list row">
-                <div class="publish-list-item col-md-6">
-                    <figure class="publish-image col-md-6">
-                        <img src="../images/phone.png" alt=""/>
-                    </figure>
-                    <div class="publish-info">
-                        <div class="publish-name">
-                            <span>The 32 unit</span> Good Phone
-                        </div>
-                        <div class="publish-price">Price: ￥99.9</div>
-                        <time class="pubish-time">2013-12-31 12:34:23</time>
-                        <div class="publish-getter-info">
-                            <img src="" class="getter-img"/>
-
-                            <div class="getter-name">Tom</div>
-                            <div class="getter-buy"><b>34</b> units</div>
-                        </div>
-                        <div class="publish-detail col-md-6">
-                            <a class="btn btn-lg btn-default" href="">Check Detail</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="publish-list-item col-md-6">
-                    <figure class="publish-image col-md-6">
-                        <img src="../images/phone.png" alt=""/>
-                    </figure>
-                    <div class="publish-info">
-                        <div class="publish-name">
-                            <span>The 32 unit</span> Good Phone
-                        </div>
-                        <div class="publish-price">Price: ￥99.9</div>
-                        <time class="pubish-time">2013-12-31 12:34:23</time>
-                        <div class="publish-getter-info">
-                            <img src="" class="getter-img"/>
-
-                            <div class="getter-name">Tom</div>
-                            <div class="getter-buy"><b>34</b> units</div>
-                        </div>
-                        <div class="publish-detail col-md-6">
-                            <a class="btn btn-lg btn-default" href="">Check Detail</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="publish-list-item col-md-6">
-                    <figure class="publish-image col-md-6">
-                        <img src="../images/phone.png" alt=""/>
-                    </figure>
-                    <div class="publish-info">
-                        <div class="publish-name">
-                            <span>The 32 unit</span> Good Phone
-                        </div>
-                        <div class="publish-price">Price: ￥99.9</div>
-                        <time class="pubish-time">2013-12-31 12:34:23</time>
-                        <div class="publish-getter-info">
-                            <img src="" class="getter-img"/>
-
-                            <div class="getter-name">Tom</div>
-                            <div class="getter-buy"><b>34</b> units</div>
-                        </div>
-                        <div class="publish-detail col-md-6">
-                            <a class="btn btn-lg btn-default" href="">Check Detail</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="publish-list-item col-md-6">
-                    <figure class="publish-image col-md-6">
-                        <img src="../images/phone.png" alt=""/>
-                    </figure>
-                    <div class="publish-info">
-                        <div class="publish-name">
-                            <span>The 32 unit</span> Good Phone
-                        </div>
-                        <div class="publish-price">Price: ￥99.9</div>
-                        <time class="pubish-time">2013-12-31 12:34:23</time>
-                        <div class="publish-getter-info">
-                            <img src="" class="getter-img"/>
-
-                            <div class="getter-name">Tom</div>
-                            <div class="getter-buy"><b>34</b> units</div>
-                        </div>
-                        <div class="publish-detail col-md-6">
-                            <a class="btn btn-lg btn-default" href="">Check Detail</a>
-                        </div>
-                    </div>
-                </div>
+            <img class="first-img col-md-2" src="../images/phone.png" />
+            <div class="first-basic col-md-2">
+                <div class="first-money">￥ <span class="first-money-number">2999</span> </div>
+                <div class="first-name">iPhone 5s</div>
+                <div class="first-getter">获得者： <b class="text-blue">奇怪的人</b></div>
+                <div class="first-buy">购买数： <b class="text-blue">3</b>人份</div>
             </div>
-        </section>
-        <aside class="col-md-4 others">
-            <div class="others-header">What the others doing ?</div>
-            <ul class="list-unstyled others-list">
-                <li class="other-list-item">
-                    <figure class="col-md-2">
-                        <img src="" alt="" class="other-img"/>
-                    </figure>
-
-                    <div class="other-info">
-                        <div>
-                            <a class="other-name text-info">Tom</a> just buy
-                        </div>
-                        <div class="other-good">Phone</div>
-                    </div>
+            <div class="first-count col-md-2"></div>
+            <ul class="first-lucky pull-right list-group">
+                <li class="list-group-item first-lucky-title">
+                    已出货<span class="text-blue first-lucky-title-number">38</span>件 过往获得者
                 </li>
-                <li class="other-list-item">
-                    <figure class="col-md-2">
-                        <img src="" alt="" class="other-img"/>
-                    </figure>
-
-                    <div class="other-info">
-                        <div>
-                            <a class="other-name text-info">Tom</a> just buy
-                        </div>
-                        <div class="other-good">Phone</div>
-                    </div>
+                <li class="list-group-item first-lucky-item">
+                    <img class="lucky-head" src="../images/head.jpg" /> 我是神雕侠侣的雕
                 </li>
-                <li class="other-list-item">
-                    <figure class="col-md-2">
-                        <img src="" alt="" class="other-img"/>
-                    </figure>
-
-                    <div class="other-info">
-                        <div>
-                            <a class="other-name text-info">Tom</a> just buy
-                        </div>
-                        <div class="other-good">Phone</div>
-                    </div>
+                <li class="list-group-item first-lucky-item">
+                    <img class="lucky-head" src="../images/head.jpg" /> 奇怪的人
+                </li>
+                <li class="list-group-item first-lucky-more">
+                    <a class="first-lucky-more-link" href="#">查看更多</a>
                 </li>
             </ul>
-        </aside>
+        </section>
+        <section class="publish-share row">
+            <div class="publish-share-arrows"></div>
+            <img class="share-head col-md-2" src="../images/head.jpg" />
+            <div class="share-basic col-md-4">
+                <div class="share-basic-name"><b>奇怪的人</b>的晒单</div>
+                <div class="share-basic-title">我是一个很厉害的晒单标题！！！！</div>
+            </div>
+            <div class="share-content col-md-7">
+                我是正文我是正文我是正文我是正文我是正文我是正文我是正文我是正文我是正文
+                我是正文我是正文我是正文我是正文我是正文我是正文我是正文我是正文
+            </div>
+        </section>
+        <section class="publish-normal-content row">
+            <div class="publish-normal-collection col-md-9">
+                <div class="publish-normal  col-md-6">
+                    <div class="normal-pay col-md-1">
+                        <span class="normal-pay-number">1110</span>
+                        <span class="normal-pay-letter">元钱</span>
+                    </div>
+                    <img class="normal-img col-md-1" src="../images/pad.jpg" />
+                    <div class="normal-basic col-md-2">
+                        <div class="normal-money">
+                            ￥ <span class="normal-money-number">2999</span>
+                        </div>
+                        <div class="normal-name">iPad Air</div>
+                        <div class="normal-getter">获得者： <b class="text-blue">奇怪的人</b> </div>
+                        <div class="normal-buy">购买数： <b class="text-blue">10</b>人份 </div>
+                        <div class="normal-time">揭晓时间： <time>2013-12-14</time></div>
+                    </div>
+                </div>
+                <div class="publish-normal  col-md-6">
+                    <div class="normal-pay col-md-1">
+                        <span class="normal-pay-number">160</span>
+                        <span class="normal-pay-letter">元钱</span>
+                    </div>
+                    <img class="normal-img col-md-1" src="../images/pad.jpg" />
+                    <div class="normal-basic col-md-2">
+                        <div class="normal-money">
+                            ￥ <span class="normal-money-number">2999</span>
+                        </div>
+                        <div class="normal-name">iPad Air</div>
+                        <div class="normal-getter">获得者： <b class="text-blue">奇怪的人</b> </div>
+                        <div class="normal-buy">购买数： <b class="text-blue">10</b>人份 </div>
+                        <div class="normal-time">揭晓时间： <time>2013-12-14</time></div>
+                    </div>
+                </div>
+                <div class="publish-normal col-md-6">
+                    <div class="normal-pay col-md-1">
+                        <span class="normal-pay-number">10</span>
+                        <span class="normal-pay-letter">元钱</span>
+
+                    </div>
+                    <img class="normal-img col-md-1" src="../images/pad.jpg" />
+                    <div class="normal-basic col-md-2">
+                        <div class="normal-money">
+                            ￥ <span class="normal-money-number">2999</span>
+                        </div>
+                        <div class="normal-name">iPad Air</div>
+                        <div class="normal-getter">获得者： <b class="text-blue">奇怪的人</b> </div>
+                        <div class="normal-buy">购买数： <b class="text-blue">10</b>人份 </div>
+                        <div class="normal-time">揭晓时间： <time>2013-12-14</time></div>
+                    </div>
+                </div>
+                <div class="publish-normal col-md-6">
+                    <div class="normal-pay col-md-1">
+                        <span class="normal-pay-number">10</span>
+                        <span class="normal-pay-letter">元钱</span>
+
+                    </div>
+                    <img class="normal-img col-md-1" src="../images/pad.jpg" />
+                    <div class="normal-basic col-md-2">
+                        <div class="normal-money">
+                            ￥ <span class="normal-money-number">2999</span>
+                        </div>
+                        <div class="normal-name">iPad Air</div>
+                        <div class="normal-getter">获得者： <b class="text-blue">奇怪的人</b> </div>
+                        <div class="normal-buy">购买数： <b class="text-blue">10</b>人份 </div>
+                        <div class="normal-time">揭晓时间： <time>2013-12-14</time></div>
+                    </div>
+                </div>
+                <div class="publish-normal col-md-6">
+                    <div class="normal-pay col-md-1">
+                        <span class="normal-pay-number">10</span>
+                        <span class="normal-pay-letter">元钱</span>
+
+                    </div>
+                    <img class="normal-img col-md-1" src="../images/pad.jpg" />
+                    <div class="normal-basic col-md-2">
+                        <div class="normal-money">
+                            ￥ <span class="normal-money-number">2999</span>
+                        </div>
+                        <div class="normal-name">iPad Air</div>
+                        <div class="normal-getter">获得者： <b class="text-blue">奇怪的人</b> </div>
+                        <div class="normal-buy">购买数： <b class="text-blue">10</b>人份 </div>
+                        <div class="normal-time">揭晓时间： <time>2013-12-14</time></div>
+                    </div>
+                </div>
+                <div class="publish-normal col-md-6">
+                    <div class="normal-pay col-md-1">
+                        <span class="normal-pay-number">10</span>
+                        <span class="normal-pay-letter">元钱</span>
+
+                    </div>
+                    <img class="normal-img col-md-1" src="../images/pad.jpg" />
+                    <div class="normal-basic col-md-2">
+                        <div class="normal-money">
+                            ￥ <span class="normal-money-number">2999</span>
+                        </div>
+                        <div class="normal-name">iPad Air</div>
+                        <div class="normal-getter">获得者： <b class="text-blue">奇怪的人</b> </div>
+                        <div class="normal-buy">购买数： <b class="text-blue">10</b>人份 </div>
+                        <div class="normal-time">揭晓时间： <time>2013-12-14</time></div>
+                    </div>
+                </div>
+                <div class="publish-normal col-md-6">
+                    <div class="normal-pay col-md-1">
+                        <span class="normal-pay-number">10</span>
+                        <span class="normal-pay-letter">元钱</span>
+
+                    </div>
+                    <img class="normal-img col-md-1" src="../images/pad.jpg" />
+                    <div class="normal-basic col-md-2">
+                        <div class="normal-money">
+                            ￥ <span class="normal-money-number">2999</span>
+                        </div>
+                        <div class="normal-name">iPad Air</div>
+                        <div class="normal-getter">获得者： <b class="text-blue">奇怪的人</b> </div>
+                        <div class="normal-buy">购买数： <b class="text-blue">10</b>人份 </div>
+                        <div class="normal-time">揭晓时间： <time>2013-12-14</time></div>
+                    </div>
+                </div>
+                <div class="publish-normal col-md-6">
+                    <div class="normal-pay col-md-1">
+                        <span class="normal-pay-number">10</span>
+                        <span class="normal-pay-letter">元钱</span>
+
+                    </div>
+                    <img class="normal-img col-md-1" src="../images/pad.jpg" />
+                    <div class="normal-basic col-md-2">
+                        <div class="normal-money">
+                            ￥ <span class="normal-money-number">2999</span>
+                        </div>
+                        <div class="normal-name">iPad Air</div>
+                        <div class="normal-getter">获得者： <b class="text-blue">奇怪的人</b> </div>
+                        <div class="normal-buy">购买数： <b class="text-blue">10</b>人份 </div>
+                        <div class="normal-time">揭晓时间： <time>2013-12-14</time></div>
+                    </div>
+                </div>
+                <div class="publish-normal col-md-6">
+                    <div class="normal-pay col-md-1">
+                        <span class="normal-pay-number">10</span>
+                        <span class="normal-pay-letter">元钱</span>
+
+                    </div>
+                    <img class="normal-img col-md-1" src="../images/pad.jpg" />
+                    <div class="normal-basic col-md-2">
+                        <div class="normal-money">
+                            ￥ <span class="normal-money-number">2999</span>
+                        </div>
+                        <div class="normal-name">iPad Air</div>
+                        <div class="normal-getter">获得者： <b class="text-blue">奇怪的人</b> </div>
+                        <div class="normal-buy">购买数： <b class="text-blue">10</b>人份 </div>
+                        <div class="normal-time">揭晓时间： <time>2013-12-14</time></div>
+                    </div>
+                </div>
+            </div>
+            <aside class="publish-just col-md-3">
+                <ul class="publish-just-list list-group">
+                    <li class="list-group-item publish-just-title">
+                        Ta们最近参与了
+                    </li>
+                    <li class="list-group-item publish-just-item">
+                        <img class="just-head" src="../images/head.jpg" />
+                        <div class="just-basic">
+                            <div class="just-basic-name">
+                                <span class="text-blue">奇怪的人</span> 刚刚购买了
+                            </div>
+                            <b class="just-basic-good text-blue">
+                                iPhone 5s
+                            </b>
+                        </div>
+                        <div class="just-buy"><span class="just-buy-number  text-orange ">1330</span> 人份</div>
+                    </li>
+                    <li class="list-group-item publish-just-item">
+                        <img class="just-head" src="../images/head.jpg" />
+                        <div class="just-basic">
+                            <div class="just-basic-name">
+                                <span class="text-blue">奇怪的人</span> 刚刚购买了
+                            </div>
+                            <b class="just-basic-good text-blue">
+                                iPhone 5s
+                            </b>
+                        </div>
+                        <div class="just-buy"><span class="just-buy-number  text-orange ">1330</span> 人份</div>
+                    </li>
+                    <li class="list-group-item publish-just-item">
+                        <img class="just-head" src="../images/head.jpg" />
+                        <div class="just-basic">
+                            <div class="just-basic-name">
+                                <span class="text-blue">奇怪的人</span> 刚刚购买了
+                            </div>
+                            <b class="just-basic-good text-blue">
+                                iPhone 5s
+                            </b>
+                        </div>
+                        <div class="just-buy"><span class="just-buy-number  text-orange ">1330</span> 人份</div>
+                    </li>
+                    <li class="list-group-item publish-just-item">
+                        <img class="just-head" src="../images/head.jpg" />
+                        <div class="just-basic">
+                            <div class="just-basic-name">
+                                <span class="text-blue">奇怪的人</span> 刚刚购买了
+                            </div>
+                            <b class="just-basic-good text-blue">
+                                iPhone 5s
+                            </b>
+                        </div>
+                        <div class="just-buy"><span class="just-buy-number  text-orange ">1330</span> 人份</div>
+                    </li>
+                    <li class="list-group-item publish-just-item">
+                        <img class="just-head" src="../images/head.jpg" />
+                        <div class="just-basic">
+                            <div class="just-basic-name">
+                                <span class="text-blue">奇怪的人</span> 刚刚购买了
+                            </div>
+                            <b class="just-basic-good text-blue">
+                                iPhone 5s
+                            </b>
+                        </div>
+                        <div class="just-buy"><span class="just-buy-number  text-orange ">1330</span> 人份</div>
+                    </li>
+                    <li class="list-group-item publish-just-item">
+                        <img class="just-head" src="../images/head.jpg" />
+                        <div class="just-basic">
+                            <div class="just-basic-name">
+                                <span class="text-blue">奇怪的人</span> 刚刚购买了
+                            </div>
+                            <b class="just-basic-good text-blue">
+                                iPhone 5s
+                            </b>
+                        </div>
+                        <div class="just-buy"><span class="just-buy-number  text-orange ">1330</span> 人份</div>
+                    </li>
+                    <li class="list-group-item publish-just-item">
+                        <img class="just-head" src="../images/head.jpg" />
+                        <div class="just-basic">
+                            <div class="just-basic-name">
+                                <span class="text-blue">奇怪的人</span> 刚刚购买了
+                            </div>
+                            <b class="just-basic-good text-blue">
+                                iPhone 5s
+                            </b>
+                        </div>
+                        <div class="just-buy"><span class="just-buy-number  text-orange ">1330</span> 人份</div>
+                    </li>
+                </ul>
+            </aside>
+        </section>
     </div>
 </div>
 <!-- Content -->
 
-<footer class="footer container">
-    <div class="row">
-        <hr>
-        <div class="col-md-12">
-            <a class="btn btn-link col-md-4">About/Contact Us</a>
-            <a class="btn btn-link col-md-4">How To Play</a>
-            <a class="btn btn-link col-md-4">Delivery <i class="icon-truck"></i></a>
-        </div>
-        <div class="col-md-12 text-center">
-            copyright
-        </div>
+<footer class="footer">
+    <hr class="footer-line">
+    <div class="container">
+        <nav class="row">
+            <ul class="footer-nav-list list-unstyled">
+                <li class="footer-nav-item hoverLine-top col-md-2"><a class="footer-link" href="#">联络我们</a></li>
+                <li class="footer-nav-item hoverLine-top col-md-2 col-md-offset-3"><a class="footer-link"
+                                                                                      href="#">如何参与</a></li>
+                <li class="footer-nav-item hoverLine-top col-md-2 col-md-offset-3"><a class="footer-link" href="#">关于物流</a></li>
+            </ul>
+        </nav>
     </div>
-
 </footer>
+
 
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
